@@ -149,5 +149,8 @@ $(document).ready(function () {
         
 
     }
+    function actualizar(){
+        
+    }
 
 });
