@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif; 
+}
+body{
+    height: 100vh;
+}
+.welcome_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome_screen{
+    width: 20rem;
+    
+}
+.welcome_screen img{
+    width: 100%;
+}
+.welcome_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome_title{
+    color: #1F41BB;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.welcome_text p{
+    text-align: center;
+    width: 23rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.login_button{
+    background-color:#1F41BB ;
+    width: 7rem;
+    padding-block: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px 0px #1F41BB;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+
+}
+.register_button{
+    background-color: transparent ;
+    width: 7rem;
+    padding-block: 1rem;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  margin: 40px;
+  color: #333;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 8px 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #2980b9;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3498db;
+}
+
+.popup {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-container input,
+.form-container textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-success {
+  background-color: #27ae60;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #2ecc71;
+}
+
+.btn-danger {
+  background-color: #c0392b;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #e74c3c;
+}
+#separador{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.popup input{
+    width: 480px;
+}
